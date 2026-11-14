@@ -7,3 +7,7 @@ Dans cet exercice, j’ai créé deux classes de base : `Personne`, contenant le
 
 exercice2
 
+
+<img width="373" height="150" alt="image" src="https://github.com/user-attachments/assets/a69a9558-a772-489c-ac0d-616399fb32f6" />
+
+Dans cet exercice, j’ai créé deux classes `Technicien` et `Comptable`, chacune contenant un attribut `salaire` et une méthode `afficherSalaire()`. J’ai ensuite créé la classe `EmployePolyvalent` qui hérite des deux classes grâce à l’héritage multiple. J’ai ajouté un constructeur permettant d’initialiser les deux salaires et une méthode `afficherTousSalaires()` qui appelle les deux méthodes parentes. Pour résoudre l’ambiguïté entre les méthodes portant le même nom, j’ai utilisé l’opérateur de résolution de portée `::` avec les noms des classes parentes.
